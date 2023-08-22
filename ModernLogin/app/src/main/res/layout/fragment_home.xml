@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="412dp"
+        android:layout_height="261dp"
+        android:background="@drawable/hme"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="serif"
+        android:text="Introduction"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="20dp"
+        android:text="An SER, Speech Emotion Recognition, is a system that analyses voice lines to
+output what emotions are expected or meant to be expressed in a particular statement.
+This application consists of many algorithmic approaches however some of them are kernael perceptron,
+ support vector machines(SVM), Gaussian processes etc. The factual purpose is that it has pre stored values
+in relations to the sound attributes, for instance: amplitude, frequency, crest etc. The idea behind this is to
+gather data and train the model, therefore in short, as more data are analyzed the more the accuracy of it improves.
+With the help of Machine Learning, it can support the statements mentioned above, recognising the hardest of voice lines,
+despite accent, tones or even background noises. The accuracy of our current program is at its satisfactory level, however
+as time passes by achieving greater pi point accuracy will be within our ease"
+        android:textAlignment="textStart"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="MissingConstraints" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ModernLogin</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="title_activity_app_page">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Program</string>
+    <string name="title_notifications">Contact us</string>
+    <string name="title_ContactUs" />
+    <string name="title_Program" />
+    <string name="intro_para">A SER(Speech Emotion Recognition) system, is one that analyses lines in vocal speech to output what emotions have been meant to be expressed in that particular input speech statement. This application consists of many algorithmic approaches. However, some of them are Kernel Perceptron, Support Vector Machines(SVM), Gaussian processes etc. \n\nThe factual purpose is that it has pre-stored values in relation to the sound attributes. For instance, amplitude, frequency, crest etc. The idea behind this is to gather data and train the model. \n\nTherefore, in short, the more data is analyzed, the higher the accuracy of the program becomes. With the help of Machine Learning, the aforementioned statements can be supported, recognising the hardest of lines in vocal speech, despite the accents, tones, or even background noises. \n\nThe accuracy of our current program is at a satisfactory level. However, as time passes by, achieving greater pi point accuracy will be within our reach.\n</string>
+    <string name="introduction">An Introduction to Our App</string>
+
+    <!--for facebook login-->
+
+    <!--facebook login ends-->
+
+    <!--error messages-->
+
+</resources>
